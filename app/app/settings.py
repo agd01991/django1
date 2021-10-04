@@ -16,7 +16,7 @@ DEBUG = True
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django.std-958.ist.mospolytech.ru','0.0.0.0']
 
 # Application definition
 
@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django-rest-framework',
+        'NAME': "django",
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': 'localhost',
